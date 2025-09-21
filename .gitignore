@@ -1,0 +1,53 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# LazyVim / Vim / Neovim defaults
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# LazyVim lock and cache files
+lazy-lock.json
+**/lazy-lock.json
+lazy/state.json
+**/lazy/state.json
+
+# Node dependencies (if using npm in your config)
+node_modules/
+
+# Backup, swap, undo files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.undo
+*.orig
+
+# Logs
+*.log
+
+# Other OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: vim-session or history files
+Session.vim
+viminfo
+
