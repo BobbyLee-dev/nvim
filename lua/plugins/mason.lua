@@ -61,9 +61,6 @@ return {
         -- Markdown
         "markdownlint",
         "marksman",
-
-        -- Git
-        "gitlint",
       },
     },
   },
