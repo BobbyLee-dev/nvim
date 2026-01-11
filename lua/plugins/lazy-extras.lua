@@ -36,9 +36,6 @@ return {
         -- Docs
         "markdown",
         "markdown_inline",
-        -- Git
-        "gitcommit",
-        "gitignore",
       },
     },
   },
@@ -222,4 +219,3 @@ return {
     },
   },
 }
-
