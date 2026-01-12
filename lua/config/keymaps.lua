@@ -19,3 +19,10 @@ vim.keymap.set("n", "<leader>oc", function()
   local current_line = vim.fn.line(".") -- Get the current line number
   vim.fn.system("cursor -g " .. vim.fn.shellescape(current_file) .. ":" .. current_line) -- Execute the Cursor command
 end, { desc = "Open current file in Cursor IDE at current line" })
+
+vim.keymap.set("n", "<leader>sg", function()
+  local dir = vim.fn.expand("%:p:h")
+  require("telescope.builtin").live_grep({
+    cwd = dir,
+  })
+end, { desc = "Grep directory of current file" })
